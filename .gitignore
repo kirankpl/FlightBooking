@@ -1,0 +1,9 @@
+# Ignore IDE and OS-specific files
+.classpath
+.project
+.settings/
+target/
+*.log
+
+# Ignore driver binaries if not to be uploaded
+chromedriver.exe

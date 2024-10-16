@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-16T17:38:24 IST" name="Default suite" finished-at="2024-10-16T17:38:39 IST" duration-ms="14435">
+    <groups>
+    </groups>
+    <test started-at="2024-10-16T17:38:24 IST" name="Default test" finished-at="2024-10-16T17:38:39 IST" duration-ms="14435">
+      <class name="test.java.tests.FlightBookingTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.java.tests.FlightBookingTest@217ed35e]" started-at="2024-10-16T17:38:24 IST" name="setup" finished-at="2024-10-16T17:38:31 IST" duration-ms="6592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAutoSuggestCountryInput()[pri:0, instance:test.java.tests.FlightBookingTest@217ed35e]" started-at="2024-10-16T17:38:31 IST" name="testAutoSuggestCountryInput" finished-at="2024-10-16T17:38:33 IST" duration-ms="2554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAutoSuggestCountryInput -->
+        <test-method signature="testDatePickerEnabled()[pri:0, instance:test.java.tests.FlightBookingTest@217ed35e]" started-at="2024-10-16T17:38:33 IST" name="testDatePickerEnabled" finished-at="2024-10-16T17:38:34 IST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDatePickerEnabled -->
+        <test-method signature="testFamilyCheckbox()[pri:0, instance:test.java.tests.FlightBookingTest@217ed35e]" started-at="2024-10-16T17:38:34 IST" name="testFamilyCheckbox" finished-at="2024-10-16T17:38:34 IST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFamilyCheckbox -->
+        <test-method signature="testSelectCurrency()[pri:0, instance:test.java.tests.FlightBookingTest@217ed35e]" started-at="2024-10-16T17:38:34 IST" name="testSelectCurrency" finished-at="2024-10-16T17:38:34 IST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectCurrency -->
+        <test-method signature="testSelectNumberOfAdults()[pri:0, instance:test.java.tests.FlightBookingTest@217ed35e]" started-at="2024-10-16T17:38:34 IST" name="testSelectNumberOfAdults" finished-at="2024-10-16T17:38:36 IST" duration-ms="1713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectNumberOfAdults -->
+        <test-method signature="testSelectOriginAndDestination()[pri:0, instance:test.java.tests.FlightBookingTest@217ed35e]" started-at="2024-10-16T17:38:36 IST" name="testSelectOriginAndDestination" finished-at="2024-10-16T17:38:37 IST" duration-ms="1554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectOriginAndDestination -->
+        <test-method signature="testSeniorCitizenDiscount()[pri:0, instance:test.java.tests.FlightBookingTest@217ed35e]" started-at="2024-10-16T17:38:37 IST" name="testSeniorCitizenDiscount" finished-at="2024-10-16T17:38:38 IST" duration-ms="528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSeniorCitizenDiscount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.java.tests.FlightBookingTest@217ed35e]" started-at="2024-10-16T17:38:38 IST" name="tearDown" finished-at="2024-10-16T17:38:39 IST" duration-ms="747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.java.tests.FlightBookingTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
