@@ -22,11 +22,11 @@
 
         <!-- TestNG -->
         <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>7.10.2</version>
-            <scope>test</scope>
-        </dependency>
+    		<groupId>org.testng</groupId>
+    		<artifactId>testng</artifactId>
+    		<version>7.10.2</version>
+    		<scope>test</scope>
+		</dependency>
 
         <!-- SLF4J (for logging) -->
         <dependency>
