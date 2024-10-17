@@ -22,11 +22,11 @@
 
         <!-- TestNG -->
         <dependency>
-    		<groupId>org.testng</groupId>
-    		<artifactId>testng</artifactId>
-    		<version>7.10.2</version>
-    		<scope>compile</scope>
-		</dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.10.2</version>
+            <scope>compile</scope>
+        </dependency>
 
         <!-- SLF4J (for logging) -->
         <dependency>
@@ -55,14 +55,13 @@
             <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
-        
+
+        <!-- WebDriverManager -->
         <dependency>
-      		<groupId>io.github.bonigarcia</groupId>
-      		<artifactId>webdrivermanager</artifactId>
-      		<version>5.5.1</version>
-    	</dependency>
-  </dependencies>
-        
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>5.5.1</version>
+        </dependency>
     </dependencies>
 
     <build>
