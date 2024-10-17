@@ -16,7 +16,7 @@ public class FlightBookingTest {
     WebDriverWait wait;
     FlightBookingPage flightBookingPage;
 
-    //@BeforeClass
+    @BeforeClass
     public void setup() {
         driver = WebDriverManager.getDriver();
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -25,43 +25,43 @@ public class FlightBookingTest {
         driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
     }
 
-    //@Test
+    @Test
     public void testSelectOriginAndDestination() {
         flightBookingPage.selectOrigin("BLR");
         flightBookingPage.selectDestination("MAA");
     }
 
-   // @Test
+   @Test
     public void testFamilyCheckbox() {
         flightBookingPage.selectFamilyCheckbox();
     }
 
-   // @Test
+   @Test
     public void testAutoSuggestCountryInput() throws InterruptedException {
         flightBookingPage.autoSuggestCountry("India");
     }
 
-   // @Test
+   @Test
     public void testSelectCurrency() {
         flightBookingPage.selectCurrency("INR");
     }
 
-   // @Test
+   @Test
     public void testSelectNumberOfAdults() throws InterruptedException {
         flightBookingPage.selectNumberOfAdults(5);
     }
 
-   // @Test
+   @Test
     public void testSeniorCitizenDiscount() {
         flightBookingPage.selectSeniorCitizenDiscount();
     }
 
-   // @Test
+   @Test
     public void testDatePickerEnabled() {
         assert flightBookingPage.isDatePickerEnabled();
     }
 
-   // @AfterClass
+   @AfterClass
     public void tearDown() {
         WebDriverManager.quitDriver();
     }
