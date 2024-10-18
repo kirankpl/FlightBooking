@@ -11,11 +11,14 @@ public class CustomWebDriverManager {
 
     public static WebDriver getDriver() {
         if (driver == null) {
-            WebDriverManager.chromedriver().setup();
+            // Force WebDriverManager to download the ChromeDriver
+            WebDriverManager.chromedriver().forceDownload().setup();
+
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--headless");  // Headless mode for CI
             options.addArguments("--no-sandbox"); // Required for CI
             options.addArguments("--disable-dev-shm-usage"); // Avoid limited resource errors
+
             driver = new ChromeDriver(options);
         }
         return driver;
