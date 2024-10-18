@@ -8,7 +8,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import org.testng.annotations.AfterClass;
 import main.java.pages.FlightBookingPage;
-import main.java.utilities.WebDriverManager;
+import main.java.utilities.CustomWebDriverManager;
+
 
 public class FlightBookingTest {
 
@@ -18,7 +19,7 @@ public class FlightBookingTest {
 
     @BeforeClass
     public void setup() {
-        driver = WebDriverManager.getDriver();
+        driver = CustomWebDriverManager.getDriver();
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         flightBookingPage = new FlightBookingPage(driver, wait);
 
@@ -63,6 +64,6 @@ public class FlightBookingTest {
 
    @AfterClass
     public void tearDown() {
-        WebDriverManager.quitDriver();
+	   CustomWebDriverManager.quitDriver();
     }
 }
